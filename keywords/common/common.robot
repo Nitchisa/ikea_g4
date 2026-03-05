@@ -8,4 +8,3 @@ Open Browser
 Accept Cookies
     Browser.Wait For Elements State     id=onetrust-accept-btn-handler    visible
     Browser.Click                       id=onetrust-accept-btn-handler
-
