@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.1 (Python 3.10.16 on darwin)" generated="2026-03-05T15:24:21.861894" rpa="false" schemaversion="5">
+<suite id="s1" name="Tc1" source="/Users/sarawutk/Documents/project/robot_framework/day5/ikea_g4/testcases/tc1.robot">
+<test id="s1-t1" name="IKEA Page: Language th" line="24">
+<kw name="Open Browser Dynamic URL" owner="common" type="SETUP">
+<kw name="Set Variable If" owner="BuiltIn">
+<msg time="2026-03-05T15:24:22.682671" level="INFO">${BASE_URL} = https://www.ikea.com/th/th/</msg>
+<var>${BASE_URL}</var>
+<arg>'${LANG}' == 'en'</arg>
+<arg>https://www.ikea.com/th/en/</arg>
+<arg>https://www.ikea.com/th/th/</arg>
+<doc>Sets variable based on the given condition.</doc>
+<status status="PASS" start="2026-03-05T15:24:22.680872" elapsed="0.002014"/>
+</kw>
+<kw name="Set Suite Variable" owner="BuiltIn">
+<msg time="2026-03-05T15:24:22.689243" level="INFO">${BASE_URL} = https://www.ikea.com/th/th/</msg>
+<arg>${BASE_URL}</arg>
+<doc>Makes a variable available everywhere within the scope of the current suite.</doc>
+<status status="PASS" start="2026-03-05T15:24:22.683640" elapsed="0.005817"/>
+</kw>
+<kw name="New Browser" owner="Browser">
+<msg time="2026-03-05T15:24:22.692573" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "/Users/sarawutk/Documents/project/robot_framework/day5/ikea_g4/testcases/browser/traces/temp/f96b0f3d-e017-4623-8dbf-05facaff067f"}</msg>
+<msg time="2026-03-05T15:24:22.774400" level="INFO">Starting Browser process /usr/local/lib/python3.10/site-packages/Browser/wrapper/index.js using at 127.0.0.1:63585</msg>
+<msg time="2026-03-05T15:24:26.791616" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"/Users/sarawutk/Documents/project/robot_framework/day5/ikea_g4/testcases/browser/traces/temp/f96b0f3d-e017-4623-8dbf-05facaff067f"}</msg>
+<arg>chromium</arg>
+<arg>headless=${FALSE}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="PASS" start="2026-03-05T15:24:22.690269" elapsed="4.101939"/>
+</kw>
+<kw name="New Page" owner="Browser">
+<msg time="2026-03-05T15:24:31.195505" level="INFO">Successfully initialized new page object and opened url: https://www.ikea.com/th/th/</msg>
+<msg time="2026-03-05T15:24:31.196018" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
+<arg>${BASE_URL}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="PASS" start="2026-03-05T15:24:26.793189" elapsed="4.404237"/>
+</kw>
+<status status="PASS" start="2026-03-05T15:24:22.677836" elapsed="8.523045"/>
+</kw>
+<kw name="Set Variable" owner="BuiltIn">
+<msg time="2026-03-05T15:24:31.205085" level="INFO">${USER_EMAIL} = camp_26@doppiotech.com</msg>
+<var>${USER_EMAIL}</var>
+<arg>camp_26@doppiotech.com</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="PASS" start="2026-03-05T15:24:31.201961" elapsed="0.003215"/>
+</kw>
+<kw name="Set Variable" owner="BuiltIn">
+<msg time="2026-03-05T15:24:31.206230" level="INFO">${USER_PASS} = Camp123*</msg>
+<var>${USER_PASS}</var>
+<arg>Camp123*</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="PASS" start="2026-03-05T15:24:31.205554" elapsed="0.000728"/>
+</kw>
+<kw name="Login To System" owner="login_page">
+<kw name="Click" owner="Browser">
+<msg time="2026-03-05T15:24:31.213866" level="INFO">Clicks the element 'id=hnf-header-profile'.</msg>
+<arg>${NAV_PROFILE_BTN}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-05T15:24:31.212562" elapsed="0.383603"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<msg time="2026-03-05T15:24:31.601276" level="INFO">Fills the text 'camp_26@doppiotech.com' in the given field.</msg>
+<arg>${SIGNIN_EMAIL}</arg>
+<arg>${email}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2026-03-05T15:24:31.596738" elapsed="0.448462"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<msg time="2026-03-05T15:24:32.047365" level="INFO">Fills the text 'Camp123*' in the given field.</msg>
+<arg>${SIGNIN_PASSWORD}</arg>
+<arg>${password}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2026-03-05T15:24:32.045525" elapsed="0.045829"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2026-03-05T15:24:32.095586" level="INFO">Clicks the element 'css=[data-testid='login']'.</msg>
+<arg>${SIGNIN_SUBMIT}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-05T15:24:32.092580" elapsed="0.095044"/>
+</kw>
+<kw name="Wait For Condition" owner="Browser">
+<kw name="Get Url" owner="Browser">
+<arg>contains</arg>
+<arg>https://www.ikea.com/th/th/</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns the current URL.</doc>
+<status status="PASS" start="2026-03-05T15:24:32.191253" elapsed="0.010098"/>
+</kw>
+<arg>Url</arg>
+<arg>contains</arg>
+<arg>${BASE_URL}</arg>
+<arg>timeout=5s</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for a condition, defined with Browser getter keywords to become True.</doc>
+<status status="PASS" start="2026-03-05T15:24:32.188107" elapsed="0.013768"/>
+</kw>
+<arg>email=${USER_EMAIL}</arg>
+<arg>password=${USER_PASS}</arg>
+<doc>ล็อกอินเข้าสู่ระบบ</doc>
+<status status="PASS" start="2026-03-05T15:24:31.209399" elapsed="0.993162"/>
+</kw>
+<kw name="Verify Login Required Message Displayed if Login Failed">
+<kw name="Get Text" owner="Browser">
+<msg time="2026-03-05T15:24:33.613043" level="INFO">Text: 'อีเมลหรือรหัสผ่านที่คุณกรอกไม่ถูกต้อง หรือไม่พบบัญชีดังกล่าวใน IKEA ประเทศไทย'</msg>
+<arg>css=p:has-text("The email"), p:has-text("อีเมล")</arg>
+<arg>==</arg>
+<arg>${login_require_message}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-05T15:24:32.206456" elapsed="1.406904"/>
+</kw>
+<status status="PASS" start="2026-03-05T15:24:32.204111" elapsed="1.409446"/>
+</kw>
+<kw name="Get Url" owner="Browser">
+<arg>contains</arg>
+<arg>${BASE_URL}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns the current URL.</doc>
+<status status="PASS" start="2026-03-05T15:24:33.613878" elapsed="0.011290"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Verified login successful with email: ${USER_EMAIL} and able to browse to URL: ${BASE_URL}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-03-05T15:24:33.625798" elapsed="0.001439"/>
+</kw>
+<kw name="Close Browser" owner="Browser" type="TEARDOWN">
+<msg time="2026-03-05T15:24:34.026375" level="INFO">Closed browser</msg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-03-05T15:24:33.628430" elapsed="0.398256"/>
+</kw>
+<doc>th IKea Page</doc>
+<status status="PASS" start="2026-03-05T15:24:22.671032" elapsed="11.356240"/>
+</test>
+<status status="PASS" start="2026-03-05T15:24:21.863761" elapsed="12.213024"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Tc1" id="s1" pass="1" fail="0" skip="0">Tc1</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2026-03-05T15:24:22.635239" level="WARN">Error in file '/Users/sarawutk/Documents/project/robot_framework/day5/ikea_g4/resources/import.robot' on line 2: Suite 'Tc1' has already imported library 'Browser' with different arguments. This import is ignored.</msg>
+<msg time="2026-03-05T15:24:22.659741" level="WARN">Imported resource file '/Users/sarawutk/Documents/project/robot_framework/day5/ikea_g4/keywords/pages/register_page.robot' is empty.</msg>
+<msg time="2026-03-05T15:24:22.662409" level="WARN">Imported resource file '/Users/sarawutk/Documents/project/robot_framework/day5/ikea_g4/resources/locators/login_locator.robot' is empty.</msg>
+<msg time="2026-03-05T15:24:22.665696" level="WARN">Imported resource file '/Users/sarawutk/Documents/project/robot_framework/day5/ikea_g4/resources/locators/register_locator.robot' is empty.</msg>
+</errors>
+</robot>

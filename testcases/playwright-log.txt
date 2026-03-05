@@ -1,0 +1,63 @@
+{"level":30,"time":"2026-03-05T08:24:24.325Z","pid":81307,"hostname":"Sarawuts-MacBook-Pro.local","msg":"Listening on 127.0.0.1:63585"}
+{"level":30,"time":"2026-03-05T08:24:25.459Z","pid":81307,"hostname":"Sarawuts-MacBook-Pro.local","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2026-03-05T08:24:26.789Z","pid":81307,"hostname":"Sarawuts-MacBook-Pro.local","msg":"Adding browser to stack: chromium, version: 145.0.7632.6"}
+{"level":30,"time":"2026-03-05T08:24:26.789Z","pid":81307,"hostname":"Sarawuts-MacBook-Pro.local","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2026-03-05T08:24:26.790Z","pid":81307,"hostname":"Sarawuts-MacBook-Pro.local","msg":"End of node method newBrowser"}
+{"level":30,"time":"2026-03-05T08:24:26.801Z","pid":81307,"hostname":"Sarawuts-MacBook-Pro.local","msg":"Start of node method newPage"}
+{"level":30,"time":"2026-03-05T08:24:26.802Z","pid":81307,"hostname":"Sarawuts-MacBook-Pro.local","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@40cefdecfbfdbe317812f48cdf5e6133\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=8751ccdd-c67d-420a-8f17-49fd788380fc\"}"}
+{"level":30,"time":"2026-03-05T08:24:26.825Z","pid":81307,"hostname":"Sarawuts-MacBook-Pro.local","msg":"Setting default timeout for context context=4864b1c7-0cc3-464d-bb80-55c2bc786973 to 10000"}
+{"level":30,"time":"2026-03-05T08:24:26.825Z","pid":81307,"hostname":"Sarawuts-MacBook-Pro.local","msg":"Changed active context: context=4864b1c7-0cc3-464d-bb80-55c2bc786973"}
+{"level":30,"time":"2026-03-05T08:24:28.291Z","pid":81307,"hostname":"Sarawuts-MacBook-Pro.local","msg":"Video path: undefined"}
+{"level":30,"time":"2026-03-05T08:24:28.294Z","pid":81307,"hostname":"Sarawuts-MacBook-Pro.local","msg":"Changed active page"}
+{"level":30,"time":"2026-03-05T08:24:31.179Z","pid":81307,"hostname":"Sarawuts-MacBook-Pro.local","msg":"End of node method newPage"}
+{"level":30,"time":"2026-03-05T08:24:31.230Z","pid":81307,"hostname":"Sarawuts-MacBook-Pro.local","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-05T08:24:31.234Z","pid":81307,"hostname":"Sarawuts-MacBook-Pro.local","msg":"Strict mode is disabled, return first Locator: id=hnf-header-profile in page."}
+{"level":30,"time":"2026-03-05T08:24:31.593Z","pid":81307,"hostname":"Sarawuts-MacBook-Pro.local","msg":"End of node method click"}
+{"level":30,"time":"2026-03-05T08:24:31.606Z","pid":81307,"hostname":"Sarawuts-MacBook-Pro.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-03-05T08:24:31.606Z","pid":81307,"hostname":"Sarawuts-MacBook-Pro.local","msg":"Strict mode is disabled, return first Locator: css=#login-email in page."}
+{"level":30,"time":"2026-03-05T08:24:32.043Z","pid":81307,"hostname":"Sarawuts-MacBook-Pro.local","msg":"End of node method fillText"}
+{"level":30,"time":"2026-03-05T08:24:32.057Z","pid":81307,"hostname":"Sarawuts-MacBook-Pro.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-03-05T08:24:32.057Z","pid":81307,"hostname":"Sarawuts-MacBook-Pro.local","msg":"Strict mode is disabled, return first Locator: css=#login-password in page."}
+{"level":30,"time":"2026-03-05T08:24:32.088Z","pid":81307,"hostname":"Sarawuts-MacBook-Pro.local","msg":"End of node method fillText"}
+{"level":30,"time":"2026-03-05T08:24:32.104Z","pid":81307,"hostname":"Sarawuts-MacBook-Pro.local","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-05T08:24:32.104Z","pid":81307,"hostname":"Sarawuts-MacBook-Pro.local","msg":"Strict mode is disabled, return first Locator: css=[data-testid='login'] in page."}
+{"level":30,"time":"2026-03-05T08:24:32.184Z","pid":81307,"hostname":"Sarawuts-MacBook-Pro.local","msg":"End of node method click"}
+{"level":30,"time":"2026-03-05T08:24:32.210Z","pid":81307,"hostname":"Sarawuts-MacBook-Pro.local","msg":"Start of node method getText"}
+{"level":30,"time":"2026-03-05T08:24:32.211Z","pid":81307,"hostname":"Sarawuts-MacBook-Pro.local","msg":"Strict mode is disabled, return first Locator: css=p:has-text(\"The email\"), p:has-text(\"อีเมล\") in page."}
+{"level":30,"time":"2026-03-05T08:24:33.610Z","pid":81307,"hostname":"Sarawuts-MacBook-Pro.local","msg":"Retrieved text for element css=p:has-text(\"The email\"), p:has-text(\"อีเมล\") containing อีเมลหรือรหัสผ่านที่คุณกรอกไม่ถูกต้อง หรือไม่พบบัญชีดังกล่าวใน IKEA ประเทศไทย"}
+{"level":30,"time":"2026-03-05T08:24:33.610Z","pid":81307,"hostname":"Sarawuts-MacBook-Pro.local","msg":"End of node method getText"}
+{"level":30,"time":"2026-03-05T08:24:33.636Z","pid":81307,"hostname":"Sarawuts-MacBook-Pro.local","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2026-03-05T08:24:33.682Z","pid":81307,"hostname":"Sarawuts-MacBook-Pro.local","msg":"Removed page=aa76e930-fe7d-47cf-8e30-4f1bcd6a6933 from context=4864b1c7-0cc3-464d-bb80-55c2bc786973 page stack"}
+{"level":30,"time":"2026-03-05T08:24:34.024Z","pid":81307,"hostname":"Sarawuts-MacBook-Pro.local","msg":"End of node method closeBrowser"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (/usr/local/lib/python3.10/site-packages/Browser/wrapper/index.js:12672:15)
+    at PlaywrightServer.getActiveBrowser (/usr/local/lib/python3.10/site-packages/Browser/wrapper/index.js:13622:59)
+    at PlaywrightServer.setTimeout (/usr/local/lib/python3.10/site-packages/Browser/wrapper/index.js:13873:57)
+    at Object.onReceiveHalfClose (/usr/local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1464:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/usr/local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:595:31)
+    at BaseServerInterceptingCall.handleEndEvent (/usr/local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:635:14)
+    at ServerHttp2Stream.<anonymous> (/usr/local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:394:18)
+    at ServerHttp2Stream.emit (node:events:520:22)
+    at endReadableNT (node:internal/streams/readable:1729:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2026-03-05T08:24:34.060Z","pid":81307,"hostname":"Sarawuts-MacBook-Pro.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-05T08:24:34.061Z","pid":81307,"hostname":"Sarawuts-MacBook-Pro.local","msg":"End of node method getBrowserCatalog"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (/usr/local/lib/python3.10/site-packages/Browser/wrapper/index.js:12672:15)
+    at PlaywrightServer.getActiveBrowser (/usr/local/lib/python3.10/site-packages/Browser/wrapper/index.js:13622:59)
+    at PlaywrightServer.setTimeout (/usr/local/lib/python3.10/site-packages/Browser/wrapper/index.js:13873:57)
+    at Object.onReceiveHalfClose (/usr/local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1464:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/usr/local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:595:31)
+    at BaseServerInterceptingCall.handleEndEvent (/usr/local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:635:14)
+    at ServerHttp2Stream.<anonymous> (/usr/local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:394:18)
+    at ServerHttp2Stream.emit (node:events:520:22)
+    at endReadableNT (node:internal/streams/readable:1729:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2026-03-05T08:24:34.095Z","pid":81307,"hostname":"Sarawuts-MacBook-Pro.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-05T08:24:34.095Z","pid":81307,"hostname":"Sarawuts-MacBook-Pro.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-05T08:24:34.258Z","pid":81307,"hostname":"Sarawuts-MacBook-Pro.local","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2026-03-05T08:24:34.259Z","pid":81307,"hostname":"Sarawuts-MacBook-Pro.local","msg":"End of node method closeAllBrowsers"}
