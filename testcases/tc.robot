@@ -2,7 +2,6 @@
 Resource    ${CURDIR}/../resources/import.robot
 
 *** Test Cases ***
-<<<<<<< Updated upstream
 Test Case 1
     Open Browser
 =======
@@ -29,4 +28,3 @@ IKEA_004
 
 # IKEA_005
 #     common.Open Browser
->>>>>>> Stashed changes
