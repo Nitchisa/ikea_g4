@@ -1,45 +1,86 @@
-{"level":30,"time":"2026-03-05T07:33:54.956Z","pid":35432,"hostname":"51-SV-G1-nitchisa","msg":"Listening on 127.0.0.1:56231"}
-{"level":30,"time":"2026-03-05T07:33:55.253Z","pid":35432,"hostname":"51-SV-G1-nitchisa","msg":"Start of node method newBrowser"}
-{"level":30,"time":"2026-03-05T07:33:55.871Z","pid":35432,"hostname":"51-SV-G1-nitchisa","msg":"Adding browser to stack: chromium, version: 145.0.7632.6"}
-{"level":30,"time":"2026-03-05T07:33:55.871Z","pid":35432,"hostname":"51-SV-G1-nitchisa","msg":"Adding 0 contexts to browser"}
-{"level":30,"time":"2026-03-05T07:33:55.871Z","pid":35432,"hostname":"51-SV-G1-nitchisa","msg":"End of node method newBrowser"}
-{"level":30,"time":"2026-03-05T07:33:55.877Z","pid":35432,"hostname":"51-SV-G1-nitchisa","msg":"Start of node method newContext"}
-{"level":30,"time":"2026-03-05T07:33:55.877Z","pid":35432,"hostname":"51-SV-G1-nitchisa","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}}"}
-{"level":30,"time":"2026-03-05T07:33:55.877Z","pid":35432,"hostname":"51-SV-G1-nitchisa","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@82f6861ff796f7b1242fc66516a9370d\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=8c2dc79f-555c-4c67-b9ca-fd1927cf4e17\"}"}
-{"level":30,"time":"2026-03-05T07:33:55.877Z","pid":35432,"hostname":"51-SV-G1-nitchisa","msg":"Trace file: "}
-{"level":30,"time":"2026-03-05T07:33:55.889Z","pid":35432,"hostname":"51-SV-G1-nitchisa","msg":"Setting default timeout for context context=b9f9eaa2-f686-4a35-b23f-cf45546b145c to 10000"}
-{"level":30,"time":"2026-03-05T07:33:55.890Z","pid":35432,"hostname":"51-SV-G1-nitchisa","msg":"Changed active context: context=b9f9eaa2-f686-4a35-b23f-cf45546b145c"}
-{"level":30,"time":"2026-03-05T07:33:55.890Z","pid":35432,"hostname":"51-SV-G1-nitchisa","msg":"End of node method newContext"}
-{"level":30,"time":"2026-03-05T07:33:55.895Z","pid":35432,"hostname":"51-SV-G1-nitchisa","msg":"Start of node method newPage"}
-{"level":30,"time":"2026-03-05T07:33:55.895Z","pid":35432,"hostname":"51-SV-G1-nitchisa","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@82f6861ff796f7b1242fc66516a9370d\"},\"headless\":false,\"_contextStack\":[{\"id\":\"context=b9f9eaa2-f686-4a35-b23f-cf45546b145c\",\"c\":{\"_type\":\"BrowserContext\",\"_guid\":\"browser-context@0ca80243ca71f122de7a6b8b71ed819f\"},\"pageStack\":[],\"options\":{\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}},\"traceFile\":\"\"}],\"id\":\"browser=8c2dc79f-555c-4c67-b9ca-fd1927cf4e17\"}"}
-{"level":30,"time":"2026-03-05T07:33:56.304Z","pid":35432,"hostname":"51-SV-G1-nitchisa","msg":"Video path: undefined"}
-{"level":30,"time":"2026-03-05T07:33:56.305Z","pid":35432,"hostname":"51-SV-G1-nitchisa","msg":"Changed active page"}
-{"level":30,"time":"2026-03-05T07:33:57.687Z","pid":35432,"hostname":"51-SV-G1-nitchisa","msg":"End of node method newPage"}
-{"level":30,"time":"2026-03-05T07:33:57.694Z","pid":35432,"hostname":"51-SV-G1-nitchisa","msg":"Start of node method fillText"}
-{"level":30,"time":"2026-03-05T07:33:57.694Z","pid":35432,"hostname":"51-SV-G1-nitchisa","msg":"Strict mode is enabled, find Locator with id=ikea-search-input in page."}
-{"level":30,"time":"2026-03-05T07:33:57.758Z","pid":35432,"hostname":"51-SV-G1-nitchisa","msg":"End of node method fillText"}
-{"level":30,"time":"2026-03-05T07:33:57.763Z","pid":35432,"hostname":"51-SV-G1-nitchisa","msg":"Start of node method click"}
-{"level":30,"time":"2026-03-05T07:33:57.763Z","pid":35432,"hostname":"51-SV-G1-nitchisa","msg":"Strict mode is enabled, find Locator with css=button[type=\"submit\"] in page."}
-{"level":30,"time":"2026-03-05T07:33:58.242Z","pid":35432,"hostname":"51-SV-G1-nitchisa","msg":"End of node method click"}
-{"level":30,"time":"2026-03-05T07:33:58.248Z","pid":35432,"hostname":"51-SV-G1-nitchisa","msg":"Start of node method getText"}
-{"level":30,"time":"2026-03-05T07:33:58.248Z","pid":35432,"hostname":"51-SV-G1-nitchisa","msg":"Strict mode is enabled, find Locator with css=.search-summary__content span in page."}
-{"level":30,"time":"2026-03-05T07:34:00.147Z","pid":35432,"hostname":"51-SV-G1-nitchisa","msg":"Retrieved text for element css=.search-summary__content span containing 276 items for \"โคมไฟ\""}
-{"level":30,"time":"2026-03-05T07:34:00.147Z","pid":35432,"hostname":"51-SV-G1-nitchisa","msg":"End of node method getText"}
-{"level":30,"time":"2026-03-05T07:34:00.160Z","pid":35432,"hostname":"51-SV-G1-nitchisa","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-05T07:34:00.162Z","pid":35432,"hostname":"51-SV-G1-nitchisa","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-05T07:34:00.165Z","pid":35432,"hostname":"51-SV-G1-nitchisa","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-05T07:34:00.167Z","pid":35432,"hostname":"51-SV-G1-nitchisa","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-05T07:34:00.169Z","pid":35432,"hostname":"51-SV-G1-nitchisa","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-05T07:34:00.170Z","pid":35432,"hostname":"51-SV-G1-nitchisa","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-05T07:34:00.174Z","pid":35432,"hostname":"51-SV-G1-nitchisa","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-05T07:34:00.176Z","pid":35432,"hostname":"51-SV-G1-nitchisa","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-05T07:34:00.179Z","pid":35432,"hostname":"51-SV-G1-nitchisa","msg":"Changed active context: context=b9f9eaa2-f686-4a35-b23f-cf45546b145c"}
-{"level":30,"time":"2026-03-05T07:34:00.179Z","pid":35432,"hostname":"51-SV-G1-nitchisa","msg":"Changing current active page: page=a21e5f39-a37b-4c17-8f13-71a4b1666119"}
-{"level":30,"time":"2026-03-05T07:34:00.179Z","pid":35432,"hostname":"51-SV-G1-nitchisa","msg":"Changed active page"}
-{"level":30,"time":"2026-03-05T07:34:00.184Z","pid":35432,"hostname":"51-SV-G1-nitchisa","msg":"Start of node method closeContext"}
-{"level":30,"time":"2026-03-05T07:34:00.198Z","pid":35432,"hostname":"51-SV-G1-nitchisa","msg":"Removed page=06cdb9d1-8014-4227-a330-28fa1f521bd1 from context=b9f9eaa2-f686-4a35-b23f-cf45546b145c page stack"}
-{"level":30,"time":"2026-03-05T07:34:00.208Z","pid":35432,"hostname":"51-SV-G1-nitchisa","msg":"End of node method closeContext"}
-{"level":30,"time":"2026-03-05T07:34:00.217Z","pid":35432,"hostname":"51-SV-G1-nitchisa","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-05T07:34:00.217Z","pid":35432,"hostname":"51-SV-G1-nitchisa","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-05T07:34:00.846Z","pid":35432,"hostname":"51-SV-G1-nitchisa","msg":"Start of node method closeAllBrowsers"}
-{"level":30,"time":"2026-03-05T07:34:01.477Z","pid":35432,"hostname":"51-SV-G1-nitchisa","msg":"End of node method closeAllBrowsers"}
+{"level":30,"time":"2026-03-05T09:07:30.446Z","pid":92140,"hostname":"Sarawuts-MacBook-Pro.local","msg":"Listening on 127.0.0.1:58082"}
+{"level":30,"time":"2026-03-05T09:07:31.532Z","pid":92140,"hostname":"Sarawuts-MacBook-Pro.local","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2026-03-05T09:07:32.829Z","pid":92140,"hostname":"Sarawuts-MacBook-Pro.local","msg":"Adding browser to stack: chromium, version: 145.0.7632.6"}
+{"level":30,"time":"2026-03-05T09:07:32.830Z","pid":92140,"hostname":"Sarawuts-MacBook-Pro.local","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2026-03-05T09:07:32.830Z","pid":92140,"hostname":"Sarawuts-MacBook-Pro.local","msg":"End of node method newBrowser"}
+{"level":30,"time":"2026-03-05T09:07:32.841Z","pid":92140,"hostname":"Sarawuts-MacBook-Pro.local","msg":"Start of node method newPage"}
+{"level":30,"time":"2026-03-05T09:07:32.842Z","pid":92140,"hostname":"Sarawuts-MacBook-Pro.local","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@eb82493d898d32073abc6dedf5189ba9\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=059a8e47-ae96-47fb-9220-c612b48f3703\"}"}
+{"level":30,"time":"2026-03-05T09:07:32.866Z","pid":92140,"hostname":"Sarawuts-MacBook-Pro.local","msg":"Setting default timeout for context context=edd6704e-8036-4791-a246-4a52c1306d22 to 10000"}
+{"level":30,"time":"2026-03-05T09:07:32.866Z","pid":92140,"hostname":"Sarawuts-MacBook-Pro.local","msg":"Changed active context: context=edd6704e-8036-4791-a246-4a52c1306d22"}
+{"level":30,"time":"2026-03-05T09:07:34.509Z","pid":92140,"hostname":"Sarawuts-MacBook-Pro.local","msg":"Video path: undefined"}
+{"level":30,"time":"2026-03-05T09:07:34.509Z","pid":92140,"hostname":"Sarawuts-MacBook-Pro.local","msg":"Changed active page"}
+{"level":30,"time":"2026-03-05T09:07:37.219Z","pid":92140,"hostname":"Sarawuts-MacBook-Pro.local","msg":"End of node method newPage"}
+{"level":30,"time":"2026-03-05T09:07:37.256Z","pid":92140,"hostname":"Sarawuts-MacBook-Pro.local","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-05T09:07:37.257Z","pid":92140,"hostname":"Sarawuts-MacBook-Pro.local","msg":"Strict mode is enabled, find Locator with id=hnf-header-profile in page."}
+{"level":30,"time":"2026-03-05T09:07:37.610Z","pid":92140,"hostname":"Sarawuts-MacBook-Pro.local","msg":"End of node method click"}
+{"level":30,"time":"2026-03-05T09:07:37.644Z","pid":92140,"hostname":"Sarawuts-MacBook-Pro.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-03-05T09:07:37.644Z","pid":92140,"hostname":"Sarawuts-MacBook-Pro.local","msg":"Strict mode is enabled, find Locator with css=#login-email in page."}
+{"level":30,"time":"2026-03-05T09:07:38.498Z","pid":92140,"hostname":"Sarawuts-MacBook-Pro.local","msg":"End of node method fillText"}
+{"level":30,"time":"2026-03-05T09:07:38.509Z","pid":92140,"hostname":"Sarawuts-MacBook-Pro.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-03-05T09:07:38.510Z","pid":92140,"hostname":"Sarawuts-MacBook-Pro.local","msg":"Strict mode is enabled, find Locator with css=#login-password in page."}
+{"level":30,"time":"2026-03-05T09:07:38.533Z","pid":92140,"hostname":"Sarawuts-MacBook-Pro.local","msg":"End of node method fillText"}
+{"level":30,"time":"2026-03-05T09:07:38.549Z","pid":92140,"hostname":"Sarawuts-MacBook-Pro.local","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-05T09:07:38.549Z","pid":92140,"hostname":"Sarawuts-MacBook-Pro.local","msg":"Strict mode is enabled, find Locator with css=[data-testid='login'] in page."}
+{"level":30,"time":"2026-03-05T09:07:38.644Z","pid":92140,"hostname":"Sarawuts-MacBook-Pro.local","msg":"End of node method click"}
+{"level":30,"time":"2026-03-05T09:07:38.695Z","pid":92140,"hostname":"Sarawuts-MacBook-Pro.local","msg":"Start of node method getText"}
+{"level":30,"time":"2026-03-05T09:07:38.695Z","pid":92140,"hostname":"Sarawuts-MacBook-Pro.local","msg":"Strict mode is enabled, find Locator with css=p:has-text(\"The email\"), p:has-text(\"อีเมล\") in page."}
+{"level":30,"time":"2026-03-05T09:07:40.091Z","pid":92140,"hostname":"Sarawuts-MacBook-Pro.local","msg":"Retrieved text for element css=p:has-text(\"The email\"), p:has-text(\"อีเมล\") containing อีเมลหรือรหัสผ่านที่คุณกรอกไม่ถูกต้อง หรือไม่พบบัญชีดังกล่าวใน IKEA ประเทศไทย"}
+{"level":30,"time":"2026-03-05T09:07:40.091Z","pid":92140,"hostname":"Sarawuts-MacBook-Pro.local","msg":"End of node method getText"}
+{"level":30,"time":"2026-03-05T09:07:40.118Z","pid":92140,"hostname":"Sarawuts-MacBook-Pro.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-05T09:07:40.130Z","pid":92140,"hostname":"Sarawuts-MacBook-Pro.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-05T09:07:40.139Z","pid":92140,"hostname":"Sarawuts-MacBook-Pro.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-05T09:07:40.148Z","pid":92140,"hostname":"Sarawuts-MacBook-Pro.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-05T09:07:40.156Z","pid":92140,"hostname":"Sarawuts-MacBook-Pro.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-05T09:07:40.159Z","pid":92140,"hostname":"Sarawuts-MacBook-Pro.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-05T09:07:40.164Z","pid":92140,"hostname":"Sarawuts-MacBook-Pro.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-05T09:07:40.166Z","pid":92140,"hostname":"Sarawuts-MacBook-Pro.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-05T09:07:40.171Z","pid":92140,"hostname":"Sarawuts-MacBook-Pro.local","msg":"Changed active context: context=edd6704e-8036-4791-a246-4a52c1306d22"}
+{"level":30,"time":"2026-03-05T09:07:40.172Z","pid":92140,"hostname":"Sarawuts-MacBook-Pro.local","msg":"Changing current active page: page=02556630-f782-4373-80b3-e5231dc256d5"}
+{"level":30,"time":"2026-03-05T09:07:40.173Z","pid":92140,"hostname":"Sarawuts-MacBook-Pro.local","msg":"Changed active page"}
+{"level":30,"time":"2026-03-05T09:07:40.194Z","pid":92140,"hostname":"Sarawuts-MacBook-Pro.local","msg":"Start of node method closeContext"}
+{"level":30,"time":"2026-03-05T09:07:40.249Z","pid":92140,"hostname":"Sarawuts-MacBook-Pro.local","msg":"Removed page=b69281c3-5b2c-4baa-bd92-5890f587710e from context=edd6704e-8036-4791-a246-4a52c1306d22 page stack"}
+{"level":30,"time":"2026-03-05T09:07:40.298Z","pid":92140,"hostname":"Sarawuts-MacBook-Pro.local","msg":"End of node method closeContext"}
+{"level":30,"time":"2026-03-05T09:07:40.312Z","pid":92140,"hostname":"Sarawuts-MacBook-Pro.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-05T09:07:40.313Z","pid":92140,"hostname":"Sarawuts-MacBook-Pro.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-05T09:07:40.329Z","pid":92140,"hostname":"Sarawuts-MacBook-Pro.local","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2026-03-05T09:07:40.330Z","pid":92140,"hostname":"Sarawuts-MacBook-Pro.local","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2026-03-05T09:07:40.364Z","pid":92140,"hostname":"Sarawuts-MacBook-Pro.local","msg":"Start of node method newContext"}
+{"level":30,"time":"2026-03-05T09:07:40.365Z","pid":92140,"hostname":"Sarawuts-MacBook-Pro.local","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}}"}
+{"level":30,"time":"2026-03-05T09:07:40.365Z","pid":92140,"hostname":"Sarawuts-MacBook-Pro.local","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@eb82493d898d32073abc6dedf5189ba9\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=059a8e47-ae96-47fb-9220-c612b48f3703\"}"}
+{"level":30,"time":"2026-03-05T09:07:40.365Z","pid":92140,"hostname":"Sarawuts-MacBook-Pro.local","msg":"Trace file: "}
+{"level":30,"time":"2026-03-05T09:07:40.398Z","pid":92140,"hostname":"Sarawuts-MacBook-Pro.local","msg":"Setting default timeout for context context=3226683b-e981-4373-9afe-60c7cfc6e06d to 10000"}
+{"level":30,"time":"2026-03-05T09:07:40.398Z","pid":92140,"hostname":"Sarawuts-MacBook-Pro.local","msg":"Changed active context: context=3226683b-e981-4373-9afe-60c7cfc6e06d"}
+{"level":30,"time":"2026-03-05T09:07:40.398Z","pid":92140,"hostname":"Sarawuts-MacBook-Pro.local","msg":"End of node method newContext"}
+{"level":30,"time":"2026-03-05T09:07:40.414Z","pid":92140,"hostname":"Sarawuts-MacBook-Pro.local","msg":"Start of node method newPage"}
+{"level":30,"time":"2026-03-05T09:07:40.414Z","pid":92140,"hostname":"Sarawuts-MacBook-Pro.local","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@eb82493d898d32073abc6dedf5189ba9\"},\"headless\":false,\"_contextStack\":[{\"id\":\"context=3226683b-e981-4373-9afe-60c7cfc6e06d\",\"c\":{\"_type\":\"BrowserContext\",\"_guid\":\"browser-context@d03bb3d6229f4f74ff4ae389181e77c2\"},\"pageStack\":[],\"options\":{\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}},\"traceFile\":\"\"}],\"id\":\"browser=059a8e47-ae96-47fb-9220-c612b48f3703\"}"}
+{"level":30,"time":"2026-03-05T09:07:40.937Z","pid":92140,"hostname":"Sarawuts-MacBook-Pro.local","msg":"Video path: undefined"}
+{"level":30,"time":"2026-03-05T09:07:40.937Z","pid":92140,"hostname":"Sarawuts-MacBook-Pro.local","msg":"Changed active page"}
+{"level":30,"time":"2026-03-05T09:07:43.130Z","pid":92140,"hostname":"Sarawuts-MacBook-Pro.local","msg":"End of node method newPage"}
+{"level":30,"time":"2026-03-05T09:07:43.168Z","pid":92140,"hostname":"Sarawuts-MacBook-Pro.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-03-05T09:07:43.168Z","pid":92140,"hostname":"Sarawuts-MacBook-Pro.local","msg":"Strict mode is enabled, find Locator with id=ikea-search-input in page."}
+{"level":30,"time":"2026-03-05T09:07:43.345Z","pid":92140,"hostname":"Sarawuts-MacBook-Pro.local","msg":"End of node method fillText"}
+{"level":30,"time":"2026-03-05T09:07:43.418Z","pid":92140,"hostname":"Sarawuts-MacBook-Pro.local","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-05T09:07:43.418Z","pid":92140,"hostname":"Sarawuts-MacBook-Pro.local","msg":"Strict mode is enabled, find Locator with css=button[type=\"submit\"] in page."}
+{"level":30,"time":"2026-03-05T09:07:43.934Z","pid":92140,"hostname":"Sarawuts-MacBook-Pro.local","msg":"End of node method click"}
+{"level":30,"time":"2026-03-05T09:07:43.940Z","pid":92140,"hostname":"Sarawuts-MacBook-Pro.local","msg":"Start of node method getText"}
+{"level":30,"time":"2026-03-05T09:07:43.940Z","pid":92140,"hostname":"Sarawuts-MacBook-Pro.local","msg":"Strict mode is enabled, find Locator with css=.search-summary__content span in page."}
+{"level":30,"time":"2026-03-05T09:07:45.096Z","pid":92140,"hostname":"Sarawuts-MacBook-Pro.local","msg":"Retrieved text for element css=.search-summary__content span containing 276 items for \"โคมไฟ\""}
+{"level":30,"time":"2026-03-05T09:07:45.097Z","pid":92140,"hostname":"Sarawuts-MacBook-Pro.local","msg":"End of node method getText"}
+{"level":30,"time":"2026-03-05T09:07:45.119Z","pid":92140,"hostname":"Sarawuts-MacBook-Pro.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-05T09:07:45.121Z","pid":92140,"hostname":"Sarawuts-MacBook-Pro.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-05T09:07:45.123Z","pid":92140,"hostname":"Sarawuts-MacBook-Pro.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-05T09:07:45.125Z","pid":92140,"hostname":"Sarawuts-MacBook-Pro.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-05T09:07:45.128Z","pid":92140,"hostname":"Sarawuts-MacBook-Pro.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-05T09:07:45.130Z","pid":92140,"hostname":"Sarawuts-MacBook-Pro.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-05T09:07:45.135Z","pid":92140,"hostname":"Sarawuts-MacBook-Pro.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-05T09:07:45.137Z","pid":92140,"hostname":"Sarawuts-MacBook-Pro.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-05T09:07:45.139Z","pid":92140,"hostname":"Sarawuts-MacBook-Pro.local","msg":"Changed active context: context=3226683b-e981-4373-9afe-60c7cfc6e06d"}
+{"level":30,"time":"2026-03-05T09:07:45.139Z","pid":92140,"hostname":"Sarawuts-MacBook-Pro.local","msg":"Changing current active page: page=671dcda4-2ce5-48eb-9b40-f2a863a1da88"}
+{"level":30,"time":"2026-03-05T09:07:45.139Z","pid":92140,"hostname":"Sarawuts-MacBook-Pro.local","msg":"Changed active page"}
+{"level":30,"time":"2026-03-05T09:07:45.146Z","pid":92140,"hostname":"Sarawuts-MacBook-Pro.local","msg":"Start of node method closeContext"}
+{"level":30,"time":"2026-03-05T09:07:45.167Z","pid":92140,"hostname":"Sarawuts-MacBook-Pro.local","msg":"Removed page=019d896e-b4f7-41d8-b9fd-037f8f08e4da from context=3226683b-e981-4373-9afe-60c7cfc6e06d page stack"}
+{"level":30,"time":"2026-03-05T09:07:45.199Z","pid":92140,"hostname":"Sarawuts-MacBook-Pro.local","msg":"End of node method closeContext"}
+{"level":30,"time":"2026-03-05T09:07:45.216Z","pid":92140,"hostname":"Sarawuts-MacBook-Pro.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-05T09:07:45.216Z","pid":92140,"hostname":"Sarawuts-MacBook-Pro.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-05T09:07:45.336Z","pid":92140,"hostname":"Sarawuts-MacBook-Pro.local","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2026-03-05T09:07:45.671Z","pid":92140,"hostname":"Sarawuts-MacBook-Pro.local","msg":"End of node method closeAllBrowsers"}

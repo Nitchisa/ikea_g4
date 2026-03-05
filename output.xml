@@ -1,21 +1,153 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.4.1 (Python 3.14.3 on win32)" generated="2026-03-05T14:33:53.698670" rpa="false" schemaversion="5">
-<suite id="s1" name="Tc" source="C:\gits\automate_camp_2026\ikea_g4\testcases\tc.robot">
-<test id="s1-t1" name="IKEA_004" line="14">
+<robot generator="Robot 7.4.1 (Python 3.10.16 on darwin)" generated="2026-03-05T16:07:27.996046" rpa="false" schemaversion="5">
+<suite id="s1" name="Tc" source="/Users/sarawutk/Documents/project/robot_framework/day5/ikea_g4/testcases/tc.robot">
+<test id="s1-t1" name="IKEA_001: Language th" line="5">
+<kw name="Open Browser Dynamic URL" owner="common" type="SETUP">
+<kw name="Set Variable If" owner="BuiltIn">
+<msg time="2026-03-05T16:07:28.752172" level="INFO">${BASE_URL} = https://www.ikea.com/th/th/</msg>
+<var>${BASE_URL}</var>
+<arg>'${LANG}' == 'en'</arg>
+<arg>https://www.ikea.com/th/en/</arg>
+<arg>https://www.ikea.com/th/th/</arg>
+<doc>Sets variable based on the given condition.</doc>
+<status status="PASS" start="2026-03-05T16:07:28.751097" elapsed="0.001245"/>
+</kw>
+<kw name="Set Suite Variable" owner="BuiltIn">
+<msg time="2026-03-05T16:07:28.755299" level="INFO">${BASE_URL} = https://www.ikea.com/th/th/</msg>
+<arg>${BASE_URL}</arg>
+<doc>Makes a variable available everywhere within the scope of the current suite.</doc>
+<status status="PASS" start="2026-03-05T16:07:28.753639" elapsed="0.002310"/>
+</kw>
+<kw name="New Browser" owner="Browser">
+<msg time="2026-03-05T16:07:28.760715" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "/Users/sarawutk/Documents/project/robot_framework/day5/ikea_g4/browser/traces/temp/7dc514cc-e071-4a55-9fef-ee60ad0d08f0"}</msg>
+<msg time="2026-03-05T16:07:28.840252" level="INFO">Starting Browser process /usr/local/lib/python3.10/site-packages/Browser/wrapper/index.js using at 127.0.0.1:58082</msg>
+<msg time="2026-03-05T16:07:32.832282" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"/Users/sarawutk/Documents/project/robot_framework/day5/ikea_g4/browser/traces/temp/7dc514cc-e071-4a55-9fef-ee60ad0d08f0"}</msg>
+<arg>chromium</arg>
+<arg>headless=${FALSE}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="PASS" start="2026-03-05T16:07:28.757974" elapsed="4.075012"/>
+</kw>
+<kw name="New Page" owner="Browser">
+<msg time="2026-03-05T16:07:37.221832" level="INFO">Successfully initialized new page object and opened url: https://www.ikea.com/th/th/</msg>
+<msg time="2026-03-05T16:07:37.222021" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
+<arg>${BASE_URL}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="PASS" start="2026-03-05T16:07:32.833998" elapsed="4.388278"/>
+</kw>
+<status status="PASS" start="2026-03-05T16:07:28.749984" elapsed="8.472741"/>
+</kw>
+<kw name="Login To System" owner="login_page">
+<kw name="Click" owner="Browser">
+<msg time="2026-03-05T16:07:37.242301" level="INFO">Clicks the element 'id=hnf-header-profile'.</msg>
+<arg>${NAV_PROFILE_BTN}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-05T16:07:37.234343" elapsed="0.378928"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<msg time="2026-03-05T16:07:37.617695" level="INFO">Fills the text 'camp_26@doppiotech.com' in the given field.</msg>
+<arg>${SIGNIN_EMAIL}</arg>
+<arg>${email}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2026-03-05T16:07:37.615351" elapsed="0.884397"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<msg time="2026-03-05T16:07:38.504354" level="INFO">Fills the text 'Camp123*' in the given field.</msg>
+<arg>${SIGNIN_PASSWORD}</arg>
+<arg>${password}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2026-03-05T16:07:38.501173" elapsed="0.037674"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2026-03-05T16:07:38.541827" level="INFO">Clicks the element 'css=[data-testid='login']'.</msg>
+<arg>${SIGNIN_SUBMIT}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-05T16:07:38.539302" elapsed="0.108634"/>
+</kw>
+<kw name="Wait For Condition" owner="Browser">
+<kw name="Get Url" owner="Browser">
+<arg>contains</arg>
+<arg>https://www.ikea.com/th/th/</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns the current URL.</doc>
+<status status="PASS" start="2026-03-05T16:07:38.660176" elapsed="0.006568"/>
+</kw>
+<arg>Url</arg>
+<arg>contains</arg>
+<arg>${BASE_URL}</arg>
+<arg>timeout=5s</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for a condition, defined with Browser getter keywords to become True.</doc>
+<status status="PASS" start="2026-03-05T16:07:38.649742" elapsed="0.021215"/>
+</kw>
+<arg>email=${IKEA001.email}</arg>
+<arg>password=${IKEA001.password}</arg>
+<doc>ล็อกอินเข้าสู่ระบบ</doc>
+<status status="PASS" start="2026-03-05T16:07:37.223834" elapsed="1.448907"/>
+</kw>
+<kw name="Verify Login Required Message Displayed if Login Failed" owner="login_page">
+<kw name="Get Text" owner="Browser">
+<msg time="2026-03-05T16:07:40.092811" level="INFO">Text: 'อีเมลหรือรหัสผ่านที่คุณกรอกไม่ถูกต้อง หรือไม่พบบัญชีดังกล่าวใน IKEA ประเทศไทย'</msg>
+<arg>css=p:has-text("The email"), p:has-text("อีเมล")</arg>
+<arg>==</arg>
+<arg>${login_require_message}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-05T16:07:38.677109" elapsed="1.415896"/>
+</kw>
+<status status="PASS" start="2026-03-05T16:07:38.674032" elapsed="1.419220"/>
+</kw>
+<kw name="Get Url" owner="Browser">
+<arg>contains</arg>
+<arg>${BASE_URL}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns the current URL.</doc>
+<status status="PASS" start="2026-03-05T16:07:40.093650" elapsed="0.005650"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Verified login successful with email: ${IKEA001.email} and able to browse to URL: ${BASE_URL}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-03-05T16:07:40.100408" elapsed="0.005315"/>
+</kw>
+<msg time="2026-03-05T16:07:40.162589" level="INFO">Switching context to context=edd6704e-8036-4791-a246-4a52c1306d22 in CURRENT</msg>
+<msg time="2026-03-05T16:07:40.193278" level="INFO">Successfully changed active context: context=edd6704e-8036-4791-a246-4a52c1306d22</msg>
+<msg time="2026-03-05T16:07:40.299604" level="INFO">Successfully closed Context</msg>
+<doc>th IKea Page</doc>
+<status status="PASS" start="2026-03-05T16:07:28.748701" elapsed="11.359497"/>
+</test>
+<test id="s1-t2" name="IKEA_004: Language th" line="20">
 <kw name="Open Browser" owner="common">
 <kw name="New Browser" owner="Browser">
-<msg time="2026-03-05T14:33:54.155165" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "C:\\gits\\automate_camp_2026\\ikea_g4\\browser\\traces\\temp\\97686aa3-c6e7-43e9-b08f-8468618d8821"}</msg>
-<msg time="2026-03-05T14:33:54.217691" level="INFO">Starting Browser process C:\Users\nitchisa.s\AppData\Local\Programs\Python\Python314\Lib\site-packages\Browser\wrapper\index.js using at 127.0.0.1:56231</msg>
-<msg time="2026-03-05T14:33:55.873795" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"C:\\gits\\automate_camp_2026\\ikea_g4\\browser\\traces\\temp\\97686aa3-c6e7-43e9-b08f-8468618d8821"}</msg>
+<msg time="2026-03-05T16:07:40.326859" level="INFO">Switching browser to browser=059a8e47-ae96-47fb-9220-c612b48f3703</msg>
+<msg time="2026-03-05T16:07:40.333226" level="INFO">Successfully changed active browser: browser=059a8e47-ae96-47fb-9220-c612b48f3703</msg>
+<msg time="2026-03-05T16:07:40.333778" level="INFO">Reusing existing browser with id: browser=059a8e47-ae96-47fb-9220-c612b48f3703</msg>
 <arg>chromium</arg>
 <arg>${FALSE}</arg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Create a new playwright Browser with specified options.</doc>
-<status status="PASS" start="2026-03-05T14:33:54.154482" elapsed="1.719554"/>
+<status status="PASS" start="2026-03-05T16:07:40.325028" elapsed="0.008857"/>
 </kw>
 <kw name="New Context" owner="Browser">
-<msg time="2026-03-05T14:33:55.876112" level="INFO">{
+<msg time="2026-03-05T16:07:40.348592" level="INFO">{
   "acceptDownloads": true,
   "bypassCSP": false,
   "forcedColors": "none",
@@ -29,104 +161,102 @@
     "height": 720
   }
 }</msg>
-<msg time="2026-03-05T14:33:55.891575" level="INFO">Successfully created context. </msg>
-<msg time="2026-03-05T14:33:55.891685" level="INFO">{'acceptDownloads': True, 'bypassCSP': False, 'forcedColors': 'none', 'ignoreHTTPSErrors': False, 'javaScriptEnabled': True, 'offline': False, 'reducedMotion': 'no-preference', 'serviceWorkers': 'allow', 'viewport': {'width': 1280, 'height': 720}}</msg>
+<msg time="2026-03-05T16:07:40.402061" level="INFO">Successfully created context. </msg>
+<msg time="2026-03-05T16:07:40.402217" level="INFO">{'acceptDownloads': True, 'bypassCSP': False, 'forcedColors': 'none', 'ignoreHTTPSErrors': False, 'javaScriptEnabled': True, 'offline': False, 'reducedMotion': 'no-preference', 'serviceWorkers': 'allow', 'viewport': {'width': 1280, 'height': 720}}</msg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Create a new BrowserContext with specified options.</doc>
-<status status="PASS" start="2026-03-05T14:33:55.874384" elapsed="0.017397"/>
+<status status="PASS" start="2026-03-05T16:07:40.334565" elapsed="0.067881"/>
 </kw>
 <kw name="New Page" owner="Browser">
-<msg time="2026-03-05T14:33:57.689824" level="INFO">Successfully initialized new page object and opened url: https://www.ikea.com/th</msg>
+<msg time="2026-03-05T16:07:43.131434" level="INFO">Successfully initialized new page object and opened url: https://www.ikea.com/th</msg>
 <arg>https://www.ikea.com/th</arg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Open a new Page.</doc>
-<status status="PASS" start="2026-03-05T14:33:55.892021" elapsed="1.798070"/>
+<status status="PASS" start="2026-03-05T16:07:40.403278" elapsed="2.728489"/>
 </kw>
-<status status="PASS" start="2026-03-05T14:33:54.153815" elapsed="3.536440"/>
+<status status="PASS" start="2026-03-05T16:07:40.323965" elapsed="2.808352"/>
 </kw>
 <kw name="Search Product" owner="home_page">
 <kw name="Fill Text" owner="Browser">
-<msg time="2026-03-05T14:33:57.692928" level="INFO">Fills the text 'โคมไฟ' in the given field.</msg>
+<msg time="2026-03-05T16:07:43.162470" level="INFO">Fills the text 'โคมไฟ' in the given field.</msg>
 <arg>${home_locator.txt_search_input}</arg>
 <arg>${product_name}</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
-<status status="PASS" start="2026-03-05T14:33:57.692053" elapsed="0.068710"/>
+<status status="PASS" start="2026-03-05T16:07:43.135586" elapsed="0.268218"/>
 </kw>
 <kw name="Click" owner="Browser">
-<msg time="2026-03-05T14:33:57.761937" level="INFO">Clicks the element 'css=button[type="submit"]'.</msg>
+<msg time="2026-03-05T16:07:43.410240" level="INFO">Clicks the element 'css=button[type="submit"]'.</msg>
 <arg>${home_locator.btn_search}</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2026-03-05T14:33:57.761128" elapsed="0.482544"/>
+<status status="PASS" start="2026-03-05T16:07:43.407491" elapsed="0.528280"/>
 </kw>
 <arg>${IKEA_004.product_type}</arg>
-<status status="PASS" start="2026-03-05T14:33:57.690919" elapsed="0.552976"/>
+<status status="PASS" start="2026-03-05T16:07:43.133314" elapsed="0.802661"/>
 </kw>
 <kw name="Verify Product keyword by product type" owner="product_page">
 <kw name="Get Text" owner="Browser">
-<msg time="2026-03-05T14:34:00.149483" level="INFO">Text: '276 items for "โคมไฟ"'</msg>
-<msg time="2026-03-05T14:34:00.149772" level="INFO">${product_keyword} = 276 items for "โคมไฟ"</msg>
+<msg time="2026-03-05T16:07:45.098509" level="INFO">Text: '276 items for "โคมไฟ"'</msg>
+<msg time="2026-03-05T16:07:45.098837" level="INFO">${product_keyword} = 276 items for "โคมไฟ"</msg>
 <var>${product_keyword}</var>
 <arg>${product_locator.lbl_product_keyword}</arg>
 <tag>Assertion</tag>
 <tag>Getter</tag>
 <tag>PageContent</tag>
 <doc>Returns text attribute of the element found by ``selector``.</doc>
-<status status="PASS" start="2026-03-05T14:33:58.245718" elapsed="1.904101"/>
+<status status="PASS" start="2026-03-05T16:07:43.937568" elapsed="1.161331"/>
 </kw>
 <kw name="Should Contain" owner="BuiltIn">
 <arg>${product_keyword}</arg>
 <arg>${product_type}</arg>
 <doc>Fails if ``container`` does not contain ``item`` one or more times.</doc>
-<status status="PASS" start="2026-03-05T14:34:00.150137" elapsed="0.001070"/>
+<status status="PASS" start="2026-03-05T16:07:45.099366" elapsed="0.001596"/>
 </kw>
 <arg>${IKEA_004.product_type}</arg>
-<status status="PASS" start="2026-03-05T14:33:58.244514" elapsed="1.906833"/>
+<status status="PASS" start="2026-03-05T16:07:43.936410" elapsed="1.164738"/>
 </kw>
 <kw name="Select product by product name" owner="product_page">
 <kw name="Replace String" owner="String">
-<msg time="2026-03-05T14:34:00.154145" level="INFO">${product_locator.lbl_product_name} = css=[data-product-name="BARLAST บอร์ลัสต์"] span:has-text("BARLAST บอร์ลัสต์")</msg>
+<msg time="2026-03-05T16:07:45.106768" level="INFO">${product_locator.lbl_product_name} = css=[data-product-name="BARLAST บอร์ลัสต์"] span:has-text("BARLAST บอร์ลัสต์")</msg>
 <var>${product_locator.lbl_product_name}</var>
 <arg>${product_locator.lbl_product_name}</arg>
 <arg>***product_name***</arg>
 <arg>${product_name}</arg>
 <doc>Replaces ``search_for`` in the given ``string`` with ``replace_with``.</doc>
-<status status="PASS" start="2026-03-05T14:34:00.153177" elapsed="0.001019"/>
+<status status="PASS" start="2026-03-05T16:07:45.103631" elapsed="0.003274"/>
 </kw>
 <kw name="Log To Console" owner="BuiltIn">
 <arg>${product_locator.lbl_product_name}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2026-03-05T14:34:00.154438" elapsed="0.000777"/>
+<status status="PASS" start="2026-03-05T16:07:45.107390" elapsed="0.001660"/>
 </kw>
 <arg>${IKEA_004.product_name}</arg>
-<status status="PASS" start="2026-03-05T14:34:00.152013" elapsed="0.003402"/>
+<status status="PASS" start="2026-03-05T16:07:45.101665" elapsed="0.007630"/>
 </kw>
-<msg time="2026-03-05T14:34:00.172416" level="INFO">Switching context to context=b9f9eaa2-f686-4a35-b23f-cf45546b145c in CURRENT</msg>
-<msg time="2026-03-05T14:34:00.183824" level="INFO">Successfully changed active context: context=b9f9eaa2-f686-4a35-b23f-cf45546b145c</msg>
-<msg time="2026-03-05T14:34:00.210629" level="INFO">Successfully closed Context</msg>
-<status status="PASS" start="2026-03-05T14:33:54.152702" elapsed="6.003027"/>
+<msg time="2026-03-05T16:07:45.133301" level="INFO">Switching context to context=3226683b-e981-4373-9afe-60c7cfc6e06d in CURRENT</msg>
+<msg time="2026-03-05T16:07:45.144965" level="INFO">Successfully changed active context: context=3226683b-e981-4373-9afe-60c7cfc6e06d</msg>
+<msg time="2026-03-05T16:07:45.201895" level="INFO">Successfully closed Context</msg>
+<status status="PASS" start="2026-03-05T16:07:40.300531" elapsed="4.809777"/>
 </test>
-<status status="PASS" start="2026-03-05T14:33:53.701233" elapsed="6.510945"/>
+<status status="PASS" start="2026-03-05T16:07:27.999197" elapsed="17.204507"/>
 </suite>
 <statistics>
 <total>
-<stat pass="1" fail="0" skip="0">All Tests</stat>
+<stat pass="2" fail="0" skip="0">All Tests</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat name="Tc" id="s1" pass="1" fail="0" skip="0">Tc</stat>
+<stat name="Tc" id="s1" pass="2" fail="0" skip="0">Tc</stat>
 </suite>
 </statistics>
 <errors>
-<msg time="2026-03-05T14:33:54.141075" level="WARN">Imported resource file 'C:\gits\automate_camp_2026\ikea_g4\keywords\pages\login_page.robot' is empty.</msg>
-<msg time="2026-03-05T14:33:54.142973" level="WARN">Imported resource file 'C:\gits\automate_camp_2026\ikea_g4\keywords\pages\register_page.robot' is empty.</msg>
-<msg time="2026-03-05T14:33:54.144392" level="WARN">Imported resource file 'C:\gits\automate_camp_2026\ikea_g4\resources\locators\login_locator.robot' is empty.</msg>
-<msg time="2026-03-05T14:33:54.145529" level="WARN">Imported resource file 'C:\gits\automate_camp_2026\ikea_g4\resources\locators\register_locator.robot' is empty.</msg>
+<msg time="2026-03-05T16:07:28.736716" level="WARN">Imported resource file '/Users/sarawutk/Documents/project/robot_framework/day5/ikea_g4/keywords/pages/register_page.robot' is empty.</msg>
+<msg time="2026-03-05T16:07:28.745572" level="WARN">Imported resource file '/Users/sarawutk/Documents/project/robot_framework/day5/ikea_g4/resources/locators/register_locator.robot' is empty.</msg>
 </errors>
 </robot>
