@@ -1,1 +1,2 @@
 product_type: "lamp"
+login_require_message: "The email address or password you entered is incorrect or the account does not exist in IKEA Thailand"

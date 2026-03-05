@@ -5,11 +5,8 @@ Open Browser
     Browser.New context    
     Browser.New page        https://www.ikea.com/th
 
-    # Browser.Wait For Elements State    id=onetrust-accept-btn-handler    visible
-    # Browser.Click   id=onetrust-accept-btn-handler
-    
-
-    # IF    Browser.Wait For Elements State    id=onetrust-accept-btn-handler    visible
-    #     Browser.Click   id=onetrust-accept-btn-handler
-    # END
-    
+Open Browser Dynamic URL
+    ${BASE_URL}=    Set Variable If    '${LANG}' == 'en'    https://www.ikea.com/th/en/    https://www.ikea.com/th/th/
+    Set Suite Variable    ${BASE_URL} 
+    New Browser    chromium    headless=${FALSE}
+    New Page       ${BASE_URL}
