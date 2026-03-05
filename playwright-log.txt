@@ -1,0 +1,76 @@
+{"level":30,"time":"2026-03-05T08:31:14.718Z","pid":22336,"hostname":"51-SV-G1-nitchisa","msg":"Listening on 127.0.0.1:62205"}
+{"level":30,"time":"2026-03-05T08:31:15.042Z","pid":22336,"hostname":"51-SV-G1-nitchisa","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2026-03-05T08:31:15.753Z","pid":22336,"hostname":"51-SV-G1-nitchisa","msg":"Adding browser to stack: chromium, version: 145.0.7632.6"}
+{"level":30,"time":"2026-03-05T08:31:15.753Z","pid":22336,"hostname":"51-SV-G1-nitchisa","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2026-03-05T08:31:15.753Z","pid":22336,"hostname":"51-SV-G1-nitchisa","msg":"End of node method newBrowser"}
+{"level":30,"time":"2026-03-05T08:31:15.761Z","pid":22336,"hostname":"51-SV-G1-nitchisa","msg":"Start of node method newContext"}
+{"level":30,"time":"2026-03-05T08:31:15.761Z","pid":22336,"hostname":"51-SV-G1-nitchisa","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"height\":720,\"width\":1280}}"}
+{"level":30,"time":"2026-03-05T08:31:15.761Z","pid":22336,"hostname":"51-SV-G1-nitchisa","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@bf87fb46770af6ed99c7d82d5716b89e\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=b50177cf-5889-458e-a144-9c9ed22e5d7a\"}"}
+{"level":30,"time":"2026-03-05T08:31:15.762Z","pid":22336,"hostname":"51-SV-G1-nitchisa","msg":"Trace file: "}
+{"level":30,"time":"2026-03-05T08:31:15.780Z","pid":22336,"hostname":"51-SV-G1-nitchisa","msg":"Setting default timeout for context context=e2c6b733-23ed-42b4-8080-6610dfb4eca8 to 10000"}
+{"level":30,"time":"2026-03-05T08:31:15.781Z","pid":22336,"hostname":"51-SV-G1-nitchisa","msg":"Changed active context: context=e2c6b733-23ed-42b4-8080-6610dfb4eca8"}
+{"level":30,"time":"2026-03-05T08:31:15.781Z","pid":22336,"hostname":"51-SV-G1-nitchisa","msg":"End of node method newContext"}
+{"level":30,"time":"2026-03-05T08:31:15.788Z","pid":22336,"hostname":"51-SV-G1-nitchisa","msg":"Start of node method newPage"}
+{"level":30,"time":"2026-03-05T08:31:15.788Z","pid":22336,"hostname":"51-SV-G1-nitchisa","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@bf87fb46770af6ed99c7d82d5716b89e\"},\"headless\":false,\"_contextStack\":[{\"id\":\"context=e2c6b733-23ed-42b4-8080-6610dfb4eca8\",\"c\":{\"_type\":\"BrowserContext\",\"_guid\":\"browser-context@7b34cf6ea798b1cce7cde3adebcaa6bb\"},\"pageStack\":[],\"options\":{\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"height\":720,\"width\":1280}},\"traceFile\":\"\"}],\"id\":\"browser=b50177cf-5889-458e-a144-9c9ed22e5d7a\"}"}
+{"level":30,"time":"2026-03-05T08:31:16.268Z","pid":22336,"hostname":"51-SV-G1-nitchisa","msg":"Video path: undefined"}
+{"level":30,"time":"2026-03-05T08:31:16.268Z","pid":22336,"hostname":"51-SV-G1-nitchisa","msg":"Changed active page"}
+{"level":30,"time":"2026-03-05T08:31:17.682Z","pid":22336,"hostname":"51-SV-G1-nitchisa","msg":"End of node method newPage"}
+{"level":30,"time":"2026-03-05T08:31:17.690Z","pid":22336,"hostname":"51-SV-G1-nitchisa","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-03-05T08:31:17.691Z","pid":22336,"hostname":"51-SV-G1-nitchisa","msg":"Strict mode is enabled, find Locator with id=onetrust-accept-btn-handler in page."}
+{"level":30,"time":"2026-03-05T08:31:18.618Z","pid":22336,"hostname":"51-SV-G1-nitchisa","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-03-05T08:31:18.621Z","pid":22336,"hostname":"51-SV-G1-nitchisa","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-05T08:31:18.621Z","pid":22336,"hostname":"51-SV-G1-nitchisa","msg":"Strict mode is enabled, find Locator with id=onetrust-accept-btn-handler in page."}
+{"level":30,"time":"2026-03-05T08:31:18.659Z","pid":22336,"hostname":"51-SV-G1-nitchisa","msg":"End of node method click"}
+{"level":30,"time":"2026-03-05T08:31:18.666Z","pid":22336,"hostname":"51-SV-G1-nitchisa","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-03-05T08:31:18.666Z","pid":22336,"hostname":"51-SV-G1-nitchisa","msg":"Strict mode is enabled, find Locator with id=ikea-search-input in page."}
+{"level":30,"time":"2026-03-05T08:31:18.704Z","pid":22336,"hostname":"51-SV-G1-nitchisa","msg":"End of node method fillText"}
+{"level":30,"time":"2026-03-05T08:31:18.709Z","pid":22336,"hostname":"51-SV-G1-nitchisa","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-05T08:31:18.710Z","pid":22336,"hostname":"51-SV-G1-nitchisa","msg":"Strict mode is enabled, find Locator with css=button[type=\"submit\"] in page."}
+{"level":30,"time":"2026-03-05T08:31:19.172Z","pid":22336,"hostname":"51-SV-G1-nitchisa","msg":"End of node method click"}
+{"level":30,"time":"2026-03-05T08:31:19.180Z","pid":22336,"hostname":"51-SV-G1-nitchisa","msg":"Start of node method getText"}
+{"level":30,"time":"2026-03-05T08:31:19.180Z","pid":22336,"hostname":"51-SV-G1-nitchisa","msg":"Strict mode is enabled, find Locator with css=.search-summary__content span in page."}
+{"level":30,"time":"2026-03-05T08:31:20.544Z","pid":22336,"hostname":"51-SV-G1-nitchisa","msg":"Retrieved text for element css=.search-summary__content span containing 276 items for \"โคมไฟ\""}
+{"level":30,"time":"2026-03-05T08:31:20.544Z","pid":22336,"hostname":"51-SV-G1-nitchisa","msg":"End of node method getText"}
+{"level":30,"time":"2026-03-05T08:31:20.550Z","pid":22336,"hostname":"51-SV-G1-nitchisa","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-05T08:31:20.550Z","pid":22336,"hostname":"51-SV-G1-nitchisa","msg":"Strict mode is enabled, find Locator with css=[data-product-name=\"BARLAST\"] >> nth=0 in page."}
+{"level":30,"time":"2026-03-05T08:31:21.206Z","pid":22336,"hostname":"51-SV-G1-nitchisa","msg":"End of node method click"}
+{"level":30,"time":"2026-03-05T08:31:21.212Z","pid":22336,"hostname":"51-SV-G1-nitchisa","msg":"Start of node method getText"}
+{"level":30,"time":"2026-03-05T08:31:21.212Z","pid":22336,"hostname":"51-SV-G1-nitchisa","msg":"Strict mode is enabled, find Locator with css=.pipcom-price-module__name-decorator.notranslate in page."}
+{"level":30,"time":"2026-03-05T08:31:21.449Z","pid":22336,"hostname":"51-SV-G1-nitchisa","msg":"Retrieved text for element css=.pipcom-price-module__name-decorator.notranslate containing BARLAST"}
+{"level":30,"time":"2026-03-05T08:31:21.449Z","pid":22336,"hostname":"51-SV-G1-nitchisa","msg":"End of node method getText"}
+{"level":30,"time":"2026-03-05T08:31:21.454Z","pid":22336,"hostname":"51-SV-G1-nitchisa","msg":"Start of node method getText"}
+{"level":30,"time":"2026-03-05T08:31:21.454Z","pid":22336,"hostname":"51-SV-G1-nitchisa","msg":"Strict mode is enabled, find Locator with css=.pipcom-price-module__name-decorator notranslate in page."}
+{"level":50,"time":"2026-03-05T08:31:31.461Z","pid":22336,"hostname":"51-SV-G1-nitchisa","err":{"type":"TimeoutError","message":"locator.elementHandle: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.pipcom-price-module__name-decorator notranslate')\u001b[22m\n","stack":"locator.elementHandle: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.pipcom-price-module__name-decorator notranslate')\u001b[22m\n\n    at getTextContent (C:\\Users\\nitchisa.s\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\Browser\\wrapper\\index.js:12025:33)\n    at getText (C:\\Users\\nitchisa.s\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\Browser\\wrapper\\index.js:12039:21)\n    at async PlaywrightServer.getText (C:\\Users\\nitchisa.s\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\Browser\\wrapper\\index.js:13635:28)","name":"TimeoutError"},"msg":"locator.elementHandle: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.pipcom-price-module__name-decorator notranslate')\u001b[22m\n"}
+================= Original suppressed error =================
+locator.elementHandle: Timeout 10000ms exceeded.
+Call log:
+[2m  - waiting for locator('.pipcom-price-module__name-decorator notranslate')[22m
+
+    at getTextContent (C:\Users\nitchisa.s\AppData\Local\Programs\Python\Python314\Lib\site-packages\Browser\wrapper\index.js:12025:33)
+    at getText (C:\Users\nitchisa.s\AppData\Local\Programs\Python\Python314\Lib\site-packages\Browser\wrapper\index.js:12039:21)
+    at async PlaywrightServer.getText (C:\Users\nitchisa.s\AppData\Local\Programs\Python\Python314\Lib\site-packages\Browser\wrapper\index.js:13635:28) {
+  name: 'TimeoutError'
+}
+=============================================================
+{"level":30,"time":"2026-03-05T08:31:31.461Z","pid":22336,"hostname":"51-SV-G1-nitchisa","msg":"Error of node method  getText"}
+{"level":30,"time":"2026-03-05T08:31:31.467Z","pid":22336,"hostname":"51-SV-G1-nitchisa","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2026-03-05T08:31:31.468Z","pid":22336,"hostname":"51-SV-G1-nitchisa","Take screenshot with options: ":{"path":"C:\\gits\\automate_camp_2026\\ikea_g4\\browser\\screenshot\\fail-screenshot-1.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2026-03-05T08:31:31.582Z","pid":22336,"hostname":"51-SV-G1-nitchisa","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2026-03-05T08:31:31.599Z","pid":22336,"hostname":"51-SV-G1-nitchisa","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-05T08:31:31.601Z","pid":22336,"hostname":"51-SV-G1-nitchisa","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-05T08:31:31.602Z","pid":22336,"hostname":"51-SV-G1-nitchisa","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-05T08:31:31.604Z","pid":22336,"hostname":"51-SV-G1-nitchisa","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-05T08:31:31.606Z","pid":22336,"hostname":"51-SV-G1-nitchisa","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-05T08:31:31.607Z","pid":22336,"hostname":"51-SV-G1-nitchisa","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-05T08:31:31.609Z","pid":22336,"hostname":"51-SV-G1-nitchisa","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-05T08:31:31.611Z","pid":22336,"hostname":"51-SV-G1-nitchisa","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-05T08:31:31.613Z","pid":22336,"hostname":"51-SV-G1-nitchisa","msg":"Changed active context: context=e2c6b733-23ed-42b4-8080-6610dfb4eca8"}
+{"level":30,"time":"2026-03-05T08:31:31.613Z","pid":22336,"hostname":"51-SV-G1-nitchisa","msg":"Changing current active page: page=b3ae9885-5191-49ba-aeff-dd6dd6145d6b"}
+{"level":30,"time":"2026-03-05T08:31:31.613Z","pid":22336,"hostname":"51-SV-G1-nitchisa","msg":"Changed active page"}
+{"level":30,"time":"2026-03-05T08:31:31.617Z","pid":22336,"hostname":"51-SV-G1-nitchisa","msg":"Start of node method closeContext"}
+{"level":30,"time":"2026-03-05T08:31:31.644Z","pid":22336,"hostname":"51-SV-G1-nitchisa","msg":"Removed page=5e010d72-0ac5-4c92-b0bf-a1f224277d1c from context=e2c6b733-23ed-42b4-8080-6610dfb4eca8 page stack"}
+{"level":30,"time":"2026-03-05T08:31:31.655Z","pid":22336,"hostname":"51-SV-G1-nitchisa","msg":"End of node method closeContext"}
+{"level":30,"time":"2026-03-05T08:31:31.663Z","pid":22336,"hostname":"51-SV-G1-nitchisa","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-05T08:31:31.663Z","pid":22336,"hostname":"51-SV-G1-nitchisa","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-05T08:31:32.195Z","pid":22336,"hostname":"51-SV-G1-nitchisa","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2026-03-05T08:31:32.987Z","pid":22336,"hostname":"51-SV-G1-nitchisa","msg":"End of node method closeAllBrowsers"}

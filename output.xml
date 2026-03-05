@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.1 (Python 3.14.3 on win32)" generated="2026-03-05T15:31:13.506552" rpa="false" schemaversion="5">
+<suite id="s1" name="Tc" source="C:\gits\automate_camp_2026\ikea_g4\testcases\tc.robot">
+<test id="s1-t1" name="IKEA_004" line="14">
+<kw name="Open Browser" owner="common">
+<kw name="New Browser" owner="Browser">
+<msg time="2026-03-05T15:31:13.951254" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "C:\\gits\\automate_camp_2026\\ikea_g4\\browser\\traces\\temp\\a313357f-e62a-4764-bf45-662e9e3946c8"}</msg>
+<msg time="2026-03-05T15:31:14.006154" level="INFO">Starting Browser process C:\Users\nitchisa.s\AppData\Local\Programs\Python\Python314\Lib\site-packages\Browser\wrapper\index.js using at 127.0.0.1:62205</msg>
+<msg time="2026-03-05T15:31:15.756449" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"C:\\gits\\automate_camp_2026\\ikea_g4\\browser\\traces\\temp\\a313357f-e62a-4764-bf45-662e9e3946c8"}</msg>
+<arg>chromium</arg>
+<arg>${FALSE}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="PASS" start="2026-03-05T15:31:13.950545" elapsed="1.806302"/>
+</kw>
+<kw name="New Context" owner="Browser">
+<msg time="2026-03-05T15:31:15.759544" level="INFO">{
+  "acceptDownloads": true,
+  "bypassCSP": false,
+  "forcedColors": "none",
+  "ignoreHTTPSErrors": false,
+  "javaScriptEnabled": true,
+  "offline": false,
+  "reducedMotion": "no-preference",
+  "serviceWorkers": "allow",
+  "viewport": {
+    "height": 720,
+    "width": 1280
+  }
+}</msg>
+<msg time="2026-03-05T15:31:15.784210" level="INFO">Successfully created context. </msg>
+<msg time="2026-03-05T15:31:15.784367" level="INFO">{'acceptDownloads': True, 'bypassCSP': False, 'forcedColors': 'none', 'ignoreHTTPSErrors': False, 'javaScriptEnabled': True, 'offline': False, 'reducedMotion': 'no-preference', 'serviceWorkers': 'allow', 'viewport': {'height': 720, 'width': 1280}}</msg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new BrowserContext with specified options.</doc>
+<status status="PASS" start="2026-03-05T15:31:15.757303" elapsed="0.027219"/>
+</kw>
+<kw name="New Page" owner="Browser">
+<msg time="2026-03-05T15:31:17.685874" level="INFO">Successfully initialized new page object and opened url: https://www.ikea.com/th</msg>
+<arg>https://www.ikea.com/th</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="PASS" start="2026-03-05T15:31:15.784886" elapsed="1.901506"/>
+</kw>
+<status status="PASS" start="2026-03-05T15:31:13.949904" elapsed="3.736764"/>
+</kw>
+<kw name="Accept Cookies" owner="common">
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2026-03-05T15:31:18.620512" level="INFO">Waited for Element with selector id=onetrust-accept-btn-handler at state visible</msg>
+<arg>id=onetrust-accept-btn-handler</arg>
+<arg>visible</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="PASS" start="2026-03-05T15:31:17.688205" elapsed="0.932461"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2026-03-05T15:31:18.621337" level="INFO">Clicks the element 'id=onetrust-accept-btn-handler'.</msg>
+<arg>id=onetrust-accept-btn-handler</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-05T15:31:18.620863" elapsed="0.041010"/>
+</kw>
+<status status="PASS" start="2026-03-05T15:31:17.687483" elapsed="0.974585"/>
+</kw>
+<kw name="Search Product" owner="home_page">
+<kw name="Fill Text" owner="Browser">
+<msg time="2026-03-05T15:31:18.664559" level="INFO">Fills the text 'โคมไฟ' in the given field.</msg>
+<arg>${home_locator.txt_search_input}</arg>
+<arg>${product_name}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2026-03-05T15:31:18.663615" elapsed="0.043183"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2026-03-05T15:31:18.708348" level="INFO">Clicks the element 'css=button[type="submit"]'.</msg>
+<arg>${home_locator.btn_search}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-05T15:31:18.707188" elapsed="0.467595"/>
+</kw>
+<arg>${IKEA_004.product_type}</arg>
+<status status="PASS" start="2026-03-05T15:31:18.662647" elapsed="0.512314"/>
+</kw>
+<kw name="Verify Product keyword by product type" owner="product_page">
+<kw name="Get Text" owner="Browser">
+<msg time="2026-03-05T15:31:20.546477" level="INFO">Text: '276 items for "โคมไฟ"'</msg>
+<msg time="2026-03-05T15:31:20.546657" level="INFO">${product_keyword} = 276 items for "โคมไฟ"</msg>
+<var>${product_keyword}</var>
+<arg>${product_locator.lbl_product_keyword}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-05T15:31:19.177433" elapsed="1.369248"/>
+</kw>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${product_keyword}</arg>
+<arg>${product_type}</arg>
+<doc>Fails if ``container`` does not contain ``item`` one or more times.</doc>
+<status status="PASS" start="2026-03-05T15:31:20.547013" elapsed="0.000678"/>
+</kw>
+<arg>${IKEA_004.product_type}</arg>
+<status status="PASS" start="2026-03-05T15:31:19.175615" elapsed="1.372165"/>
+</kw>
+<kw name="Select product by product name" owner="product_page">
+<kw name="Replace String" owner="String">
+<msg time="2026-03-05T15:31:20.549311" level="INFO">${product_locator.lbl_product_name} = css=[data-product-name="BARLAST"] &gt;&gt; nth=0</msg>
+<var>${product_locator.lbl_product_name}</var>
+<arg>${product_locator.lbl_product_name}</arg>
+<arg>***product_name***</arg>
+<arg>${product_name}</arg>
+<doc>Replaces ``search_for`` in the given ``string`` with ``replace_with``.</doc>
+<status status="PASS" start="2026-03-05T15:31:20.548629" elapsed="0.000738"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2026-03-05T15:31:20.550028" level="INFO">Clicks the element 'css=[data-product-name="BARLAST"] &gt;&gt; nth=0'.</msg>
+<arg>${product_locator.lbl_product_name}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-05T15:31:20.549538" elapsed="0.660075"/>
+</kw>
+<arg>${IKEA_004.product_name}</arg>
+<status status="PASS" start="2026-03-05T15:31:20.548130" elapsed="0.661725"/>
+</kw>
+<kw name="Get product name from product detail page" owner="product_detail_page">
+<kw name="Get Text" owner="Browser">
+<msg time="2026-03-05T15:31:21.451588" level="INFO">Text: 'BARLAST'</msg>
+<msg time="2026-03-05T15:31:21.451813" level="INFO">${product_name} = BARLAST</msg>
+<var>${product_name}</var>
+<arg>${product_detail_locator.lbl_product_name}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-05T15:31:21.211168" elapsed="0.240681"/>
+</kw>
+<return>
+<value>${product_name}</value>
+<status status="PASS" start="2026-03-05T15:31:21.451997" elapsed="0.000240"/>
+</return>
+<status status="PASS" start="2026-03-05T15:31:21.210417" elapsed="0.242012"/>
+</kw>
+<kw name="Get product detail from product detail page" owner="product_detail_page">
+<kw name="Get Text" owner="Browser">
+<msg time="2026-03-05T15:31:31.584945" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/fail-screenshot-1.png" target="_blank"&gt;&lt;img src="browser/screenshot/fail-screenshot-1.png" width="800px"/&gt;&lt;/a&gt;</msg>
+<msg time="2026-03-05T15:31:31.585148" level="INFO">See also file:///C:/gits/automate_camp_2026/ikea_g4/playwright-log.txt for additional details.</msg>
+<msg time="2026-03-05T15:31:31.585732" level="FAIL">TimeoutError: locator.elementHandle: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('.pipcom-price-module__name-decorator notranslate')
+</msg>
+<var>${product_detail}</var>
+<arg>${product_detail_locator.lbl_product_detail}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="FAIL" start="2026-03-05T15:31:21.453615" elapsed="10.140522">TimeoutError: locator.elementHandle: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('.pipcom-price-module__name-decorator notranslate')
+</status>
+</kw>
+<return>
+<value>${product_detail}</value>
+<status status="NOT RUN" start="2026-03-05T15:31:31.594346" elapsed="0.000144"/>
+</return>
+<status status="FAIL" start="2026-03-05T15:31:21.453038" elapsed="10.141640">TimeoutError: locator.elementHandle: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('.pipcom-price-module__name-decorator notranslate')
+</status>
+</kw>
+<kw name="Add product to cart by quantity" owner="product_detail_page">
+<arg>${IKEA_004.quantity}</arg>
+<status status="NOT RUN" start="2026-03-05T15:31:31.595194" elapsed="0.000136"/>
+</kw>
+<kw name="Debug" owner="DebugLibrary">
+<doc>Open a interactive shell, run any RobotFramework keywords.</doc>
+<status status="NOT RUN" start="2026-03-05T15:31:31.595821" elapsed="0.000264"/>
+</kw>
+<msg time="2026-03-05T15:31:31.609320" level="INFO">Switching context to context=e2c6b733-23ed-42b4-8080-6610dfb4eca8 in CURRENT</msg>
+<msg time="2026-03-05T15:31:31.617698" level="INFO">Successfully changed active context: context=e2c6b733-23ed-42b4-8080-6610dfb4eca8</msg>
+<msg time="2026-03-05T15:31:31.657515" level="INFO">Successfully closed Context</msg>
+<status status="FAIL" start="2026-03-05T15:31:13.949006" elapsed="17.647562">TimeoutError: locator.elementHandle: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('.pipcom-price-module__name-decorator notranslate')
+</status>
+</test>
+<status status="FAIL" start="2026-03-05T15:31:13.525403" elapsed="18.133737"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Tc" id="s1" pass="0" fail="1" skip="0">Tc</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2026-03-05T15:31:13.937934" level="WARN">Imported resource file 'C:\gits\automate_camp_2026\ikea_g4\keywords\pages\login_page.robot' is empty.</msg>
+<msg time="2026-03-05T15:31:13.939740" level="WARN">Imported resource file 'C:\gits\automate_camp_2026\ikea_g4\keywords\pages\register_page.robot' is empty.</msg>
+<msg time="2026-03-05T15:31:13.941945" level="WARN">Imported resource file 'C:\gits\automate_camp_2026\ikea_g4\resources\locators\login_locator.robot' is empty.</msg>
+<msg time="2026-03-05T15:31:13.943238" level="WARN">Imported resource file 'C:\gits\automate_camp_2026\ikea_g4\resources\locators\register_locator.robot' is empty.</msg>
+</errors>
+</robot>
