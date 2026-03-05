@@ -3,7 +3,8 @@ Library         Browser
 Library         DebugLibrary
 Library         String
 Resource        ${CURDIR}/../keywords/common/common.robot
-Variables       ${CURDIR}/../resources/test_data/${ENV}/data.yaml
+Variables       ${CURDIR}/../resources/test_data/data.yaml
+Variables       ${CURDIR}/../resources/translation/${LANG}.yaml
 Resource        ${CURDIR}/../keywords/pages/home_page.robot
 Resource        ${CURDIR}/../keywords/pages/login_page.robot
 Resource        ${CURDIR}/../keywords/pages/product_page.robot

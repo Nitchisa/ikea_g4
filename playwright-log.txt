@@ -1,0 +1,45 @@
+{"level":30,"time":"2026-03-05T07:33:54.956Z","pid":35432,"hostname":"51-SV-G1-nitchisa","msg":"Listening on 127.0.0.1:56231"}
+{"level":30,"time":"2026-03-05T07:33:55.253Z","pid":35432,"hostname":"51-SV-G1-nitchisa","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2026-03-05T07:33:55.871Z","pid":35432,"hostname":"51-SV-G1-nitchisa","msg":"Adding browser to stack: chromium, version: 145.0.7632.6"}
+{"level":30,"time":"2026-03-05T07:33:55.871Z","pid":35432,"hostname":"51-SV-G1-nitchisa","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2026-03-05T07:33:55.871Z","pid":35432,"hostname":"51-SV-G1-nitchisa","msg":"End of node method newBrowser"}
+{"level":30,"time":"2026-03-05T07:33:55.877Z","pid":35432,"hostname":"51-SV-G1-nitchisa","msg":"Start of node method newContext"}
+{"level":30,"time":"2026-03-05T07:33:55.877Z","pid":35432,"hostname":"51-SV-G1-nitchisa","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}}"}
+{"level":30,"time":"2026-03-05T07:33:55.877Z","pid":35432,"hostname":"51-SV-G1-nitchisa","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@82f6861ff796f7b1242fc66516a9370d\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=8c2dc79f-555c-4c67-b9ca-fd1927cf4e17\"}"}
+{"level":30,"time":"2026-03-05T07:33:55.877Z","pid":35432,"hostname":"51-SV-G1-nitchisa","msg":"Trace file: "}
+{"level":30,"time":"2026-03-05T07:33:55.889Z","pid":35432,"hostname":"51-SV-G1-nitchisa","msg":"Setting default timeout for context context=b9f9eaa2-f686-4a35-b23f-cf45546b145c to 10000"}
+{"level":30,"time":"2026-03-05T07:33:55.890Z","pid":35432,"hostname":"51-SV-G1-nitchisa","msg":"Changed active context: context=b9f9eaa2-f686-4a35-b23f-cf45546b145c"}
+{"level":30,"time":"2026-03-05T07:33:55.890Z","pid":35432,"hostname":"51-SV-G1-nitchisa","msg":"End of node method newContext"}
+{"level":30,"time":"2026-03-05T07:33:55.895Z","pid":35432,"hostname":"51-SV-G1-nitchisa","msg":"Start of node method newPage"}
+{"level":30,"time":"2026-03-05T07:33:55.895Z","pid":35432,"hostname":"51-SV-G1-nitchisa","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@82f6861ff796f7b1242fc66516a9370d\"},\"headless\":false,\"_contextStack\":[{\"id\":\"context=b9f9eaa2-f686-4a35-b23f-cf45546b145c\",\"c\":{\"_type\":\"BrowserContext\",\"_guid\":\"browser-context@0ca80243ca71f122de7a6b8b71ed819f\"},\"pageStack\":[],\"options\":{\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}},\"traceFile\":\"\"}],\"id\":\"browser=8c2dc79f-555c-4c67-b9ca-fd1927cf4e17\"}"}
+{"level":30,"time":"2026-03-05T07:33:56.304Z","pid":35432,"hostname":"51-SV-G1-nitchisa","msg":"Video path: undefined"}
+{"level":30,"time":"2026-03-05T07:33:56.305Z","pid":35432,"hostname":"51-SV-G1-nitchisa","msg":"Changed active page"}
+{"level":30,"time":"2026-03-05T07:33:57.687Z","pid":35432,"hostname":"51-SV-G1-nitchisa","msg":"End of node method newPage"}
+{"level":30,"time":"2026-03-05T07:33:57.694Z","pid":35432,"hostname":"51-SV-G1-nitchisa","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-03-05T07:33:57.694Z","pid":35432,"hostname":"51-SV-G1-nitchisa","msg":"Strict mode is enabled, find Locator with id=ikea-search-input in page."}
+{"level":30,"time":"2026-03-05T07:33:57.758Z","pid":35432,"hostname":"51-SV-G1-nitchisa","msg":"End of node method fillText"}
+{"level":30,"time":"2026-03-05T07:33:57.763Z","pid":35432,"hostname":"51-SV-G1-nitchisa","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-05T07:33:57.763Z","pid":35432,"hostname":"51-SV-G1-nitchisa","msg":"Strict mode is enabled, find Locator with css=button[type=\"submit\"] in page."}
+{"level":30,"time":"2026-03-05T07:33:58.242Z","pid":35432,"hostname":"51-SV-G1-nitchisa","msg":"End of node method click"}
+{"level":30,"time":"2026-03-05T07:33:58.248Z","pid":35432,"hostname":"51-SV-G1-nitchisa","msg":"Start of node method getText"}
+{"level":30,"time":"2026-03-05T07:33:58.248Z","pid":35432,"hostname":"51-SV-G1-nitchisa","msg":"Strict mode is enabled, find Locator with css=.search-summary__content span in page."}
+{"level":30,"time":"2026-03-05T07:34:00.147Z","pid":35432,"hostname":"51-SV-G1-nitchisa","msg":"Retrieved text for element css=.search-summary__content span containing 276 items for \"โคมไฟ\""}
+{"level":30,"time":"2026-03-05T07:34:00.147Z","pid":35432,"hostname":"51-SV-G1-nitchisa","msg":"End of node method getText"}
+{"level":30,"time":"2026-03-05T07:34:00.160Z","pid":35432,"hostname":"51-SV-G1-nitchisa","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-05T07:34:00.162Z","pid":35432,"hostname":"51-SV-G1-nitchisa","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-05T07:34:00.165Z","pid":35432,"hostname":"51-SV-G1-nitchisa","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-05T07:34:00.167Z","pid":35432,"hostname":"51-SV-G1-nitchisa","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-05T07:34:00.169Z","pid":35432,"hostname":"51-SV-G1-nitchisa","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-05T07:34:00.170Z","pid":35432,"hostname":"51-SV-G1-nitchisa","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-05T07:34:00.174Z","pid":35432,"hostname":"51-SV-G1-nitchisa","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-05T07:34:00.176Z","pid":35432,"hostname":"51-SV-G1-nitchisa","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-05T07:34:00.179Z","pid":35432,"hostname":"51-SV-G1-nitchisa","msg":"Changed active context: context=b9f9eaa2-f686-4a35-b23f-cf45546b145c"}
+{"level":30,"time":"2026-03-05T07:34:00.179Z","pid":35432,"hostname":"51-SV-G1-nitchisa","msg":"Changing current active page: page=a21e5f39-a37b-4c17-8f13-71a4b1666119"}
+{"level":30,"time":"2026-03-05T07:34:00.179Z","pid":35432,"hostname":"51-SV-G1-nitchisa","msg":"Changed active page"}
+{"level":30,"time":"2026-03-05T07:34:00.184Z","pid":35432,"hostname":"51-SV-G1-nitchisa","msg":"Start of node method closeContext"}
+{"level":30,"time":"2026-03-05T07:34:00.198Z","pid":35432,"hostname":"51-SV-G1-nitchisa","msg":"Removed page=06cdb9d1-8014-4227-a330-28fa1f521bd1 from context=b9f9eaa2-f686-4a35-b23f-cf45546b145c page stack"}
+{"level":30,"time":"2026-03-05T07:34:00.208Z","pid":35432,"hostname":"51-SV-G1-nitchisa","msg":"End of node method closeContext"}
+{"level":30,"time":"2026-03-05T07:34:00.217Z","pid":35432,"hostname":"51-SV-G1-nitchisa","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-05T07:34:00.217Z","pid":35432,"hostname":"51-SV-G1-nitchisa","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-05T07:34:00.846Z","pid":35432,"hostname":"51-SV-G1-nitchisa","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2026-03-05T07:34:01.477Z","pid":35432,"hostname":"51-SV-G1-nitchisa","msg":"End of node method closeAllBrowsers"}

@@ -3,14 +3,14 @@ IKEA_001:
   password: Camp123*
 
 IKEA_003:
-  Color: น้ำตาล
-  Product name: STOCKHOLM 2025
-  Product description: โซฟา2ที่นั่ง, อัลฮัมน์ น้ำตาลเข้ม
+  color: น้ำตาล
+  product_name: STOCKHOLM 2025
+  product_description: โซฟา2ที่นั่ง, อัลฮัมน์ น้ำตาลเข้ม
 
 IKEA_004:
-  Product type: โคมไฟ
-  Product name: BARLAST บอร์ลัสต์
-  Quatity: 5
+  product_type: โคมไฟ
+  product_name: BARLAST บอร์ลัสต์
+  quantity: 5
 
 IKEA_005:
-  Product name: LEGITIM เลกกิททิม
+  product_name: LEGITIM เลกกิททิม
